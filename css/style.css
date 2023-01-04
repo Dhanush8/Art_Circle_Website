@@ -1,0 +1,101 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: rgb(132, 132, 133);
+}
+
+h3,
+h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.container {
+    padding: 80px 120px;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    width: 100%;
+    margin: auto;
+}
+
+.bg-1 {
+    color: white;
+
+}
+
+.bg-1 h3 {
+    color: rgb(132, 132, 133);
+}
+
+.bg-1 p {
+    font-style: italic;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    transition: .2s;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+.nav-tabs li a {
+    color: #777;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+    font-size: medium;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+
+.navbar li a{
+    padding: 35px;
+}
+
+.navbar-nav li a:hover {
+    color: white !important;
+}
+
+.navbar-nav li.active a {
+    color: black !important;
+    background-color: rgb(255, 187, 15) !important;
+    padding: 35px;
+}
+
+.d-inline-block{
+    padding-top: 5px;
+}
+
+.thumbnail img:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 10px 2px rgb(139, 139, 139);
+}
+    
+#bg-img {
+    background-image: url('../img/musicNotes.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    background-size: cover;
+    height: 500px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px;
+}
